@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{html,js}"],
+module.exports = {
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+  ],
   theme: {
-    extend: {
-      fontFamily:{
-        "nonitu": ['Nunito', 'sans-serif']
-      }
+    fontFamily:{
+      "Nunito": ['Nunito', 'sans-serif']
     },
+    extend: {},
   },
   plugins: [],
-};
+}
+

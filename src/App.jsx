@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1 className="font-nonitu text-red-500">Resume builder</h1>
+      <h1 className="text-3xl font-bold text-red-500">Resume builder start</h1>
     </>
   );
 }
