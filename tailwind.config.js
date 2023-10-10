@@ -5,10 +5,11 @@ module.exports = {
   ],
   theme: {
     fontFamily:{
-      "Nunito": ['Nunito', 'sans-serif']
+      "Nunito": ['Nunito', 'sans-serif'],
+      "josef": ['Josefin Sans', 'sans-serif']
     },
     colors:{
-      "bcolor": '#1d4ed8'
+      "bcolor": '#071952'
     },
     extend: {},
   },
