@@ -1,8 +1,11 @@
+import Navpart from "../components/Navpart/Navpart"
 
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+        <Navpart/>
+    </>
   )
 }
 
