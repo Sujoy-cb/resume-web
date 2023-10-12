@@ -7,13 +7,13 @@ const Navpart = () => {
           <div className="logo">logo</div>
           <div className="nav_item"> 
             <ul className="flex gap-8">
-                <li>Dashboard</li>
-                <li>Upgrade</li>
-                <li>English</li>
-                <li>User name</li>
-                <li>User name</li>
-                <li>User name</li>
-                <li>User name</li>
+                <li className="font-Nunito text-fcolor text-sm font-medium">Dashboard</li>
+                <li className="font-Nunito text-fcolor text-sm font-medium">Upgrade</li>
+                <li className="font-Nunito text-fcolor text-sm font-medium">English</li>
+                <li className="font-Nunito text-fcolor text-sm font-medium">User name</li>
+                <li className="font-Nunito text-fcolor text-sm font-medium">User name</li>
+                <li className="font-Nunito text-fcolor text-sm font-medium">User name</li>
+                <li className="font-Nunito text-fcolor text-sm font-medium">User name</li>
             </ul>
           </div>
         </div>

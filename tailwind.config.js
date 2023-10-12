@@ -9,7 +9,8 @@ module.exports = {
       "josef": ['Josefin Sans', 'sans-serif']
     },
     colors:{
-      "bcolor": '#071952'
+      "bcolor": '#071952',
+      "fcolor": '#fff'
     },
     extend: {},
   },
