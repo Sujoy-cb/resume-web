@@ -11,6 +11,9 @@ const Navpart = () => {
                 <li>Upgrade</li>
                 <li>English</li>
                 <li>User name</li>
+                <li>User name</li>
+                <li>User name</li>
+                <li>User name</li>
             </ul>
           </div>
         </div>
