@@ -10,7 +10,8 @@ module.exports = {
     },
     colors:{
       "bcolor": '#502acd',
-      "fcolor": '#fff'
+      "fcolor": '#fff',
+      "textColor": "#444"
     },
     extend: {},
   },
