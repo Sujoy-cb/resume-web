@@ -19,28 +19,28 @@ const Sidebar = () => {
           </p>
           <div className="choose_part grid grid-rows-4 grid-flow-col gap-3 mt-4">
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <FaUserTie className="text-[50px] text-bcolor mx-auto"/>
+              <FaUserTie className="text-[40px] text-bcolor mx-auto"/>
             </span>
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <GiNotebook className="text-[50px] text-bcolor mx-auto"/>
+              <GiNotebook className="text-[40px] text-bcolor mx-auto"/>
             </span>
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <MdWork className="text-[50px] text-bcolor mx-auto"/>
+              <MdWork className="text-[40px] text-bcolor mx-auto"/>
             </span>
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <SiBookstack className="text-[50px] text-bcolor mx-auto"/>
+              <SiBookstack className="text-[40px] text-bcolor mx-auto"/>
             </span>
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <FaGlobeAmericas className="text-[50px] text-bcolor mx-auto"/>
+              <FaGlobeAmericas className="text-[40px] text-bcolor mx-auto"/>
             </span>
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <SlBadge className="text-[50px] text-bcolor mx-auto"/>
+              <SlBadge className="text-[40px] text-bcolor mx-auto"/>
             </span>
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <FaUserGraduate className="text-[50px] text-bcolor mx-auto"/>
+              <FaUserGraduate className="text-[40px] text-bcolor mx-auto"/>
             </span>
             <span className="p-8 bg-[#f5f5f5] rounded-md">
-              <AiOutlineLaptop className="text-[50px] text-bcolor mx-auto"/>
+              <AiOutlineLaptop className="text-[40px] text-bcolor mx-auto"/>
             </span>
           </div>
         </div>
