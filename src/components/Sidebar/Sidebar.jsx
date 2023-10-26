@@ -18,28 +18,28 @@ const Sidebar = () => {
             Choose the option and write your details.
           </p>
           <div className="choose_part grid grid-rows-4 grid-flow-col gap-3 mt-4">
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <FaUserTie className="text-[40px] text-bcolor mx-auto"/>
             </span>
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <GiNotebook className="text-[40px] text-bcolor mx-auto"/>
             </span>
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <MdWork className="text-[40px] text-bcolor mx-auto"/>
             </span>
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <SiBookstack className="text-[40px] text-bcolor mx-auto"/>
             </span>
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <FaGlobeAmericas className="text-[40px] text-bcolor mx-auto"/>
             </span>
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <SlBadge className="text-[40px] text-bcolor mx-auto"/>
             </span>
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <FaUserGraduate className="text-[40px] text-bcolor mx-auto"/>
             </span>
-            <span className="p-8 bg-[#f5f5f5] rounded-md">
+            <span className="p-8 bg-[#f5f5f5] rounded-md cursor-pointer">
               <AiOutlineLaptop className="text-[40px] text-bcolor mx-auto"/>
             </span>
           </div>
