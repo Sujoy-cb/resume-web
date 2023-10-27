@@ -100,7 +100,7 @@ const DataInput = () => {
               </label>
             </div>
           </div>
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-3 gap-4">
             <div className="date_of_birth mt-4">
               <label htmlFor="">
                 <p className="font-Nunito text-base text-[#777] font-normal">
@@ -112,8 +112,8 @@ const DataInput = () => {
                 />
               </label>
             </div>
-            <button className="bg-bcolor w-[185px] h-12 mt-4 border border-solid border-[#502acd] rounded" type="submit">Prev</button>
-            <button type="submit">Next</button>
+            <button className="bg-bcolor w-[185px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold" type="submit">Prev</button>
+            <button className="bg-bcolor w-[185px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold" type="submit">Next</button>
           </div>
         </div>
       </div>
