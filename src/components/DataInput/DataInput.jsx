@@ -1,3 +1,5 @@
+import {AiOutlineArrowLeft} from "react-icons/ai"
+import {AiOutlineArrowRight} from "react-icons/ai"
 const DataInput = () => {
   return (
     <>
@@ -112,8 +114,18 @@ const DataInput = () => {
                 />
               </label>
             </div>
-            <button className="bg-bcolor w-[185px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold" type="submit">Prev</button>
-            <button className="bg-bcolor w-[185px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold" type="submit">Next</button>
+            <button
+              className="flex justify-center items-center bg-bcolor w-[185px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold"
+              type="submit">
+              <AiOutlineArrowLeft/>
+              Prev
+            </button>
+            <button
+              className="flex justify-center items-center bg-bcolor w-[185px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold"
+              type="submit">
+              Next
+              <AiOutlineArrowRight/>
+            </button>
           </div>
         </div>
       </div>
