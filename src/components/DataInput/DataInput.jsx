@@ -99,10 +99,12 @@ const DataInput = () => {
                 />
               </label>
             </div>
+          </div>
+          <div className="grid grid-cols-3">
             <div className="date_of_birth mt-4">
               <label htmlFor="">
                 <p className="font-Nunito text-base text-[#777] font-normal">
-                Date of birth
+                  Date of birth
                 </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
@@ -110,7 +112,8 @@ const DataInput = () => {
                 />
               </label>
             </div>
-            
+            <button type="submit">Prev</button>
+            <button type="submit">Next</button>
           </div>
         </div>
       </div>
