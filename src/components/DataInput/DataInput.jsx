@@ -112,7 +112,7 @@ const DataInput = () => {
                 />
               </label>
             </div>
-            <button type="submit">Prev</button>
+            <button className="bg-bcolor w-[185px] h-12 mt-4 border border-solid border-[#502acd] rounded" type="submit">Prev</button>
             <button type="submit">Next</button>
           </div>
         </div>
