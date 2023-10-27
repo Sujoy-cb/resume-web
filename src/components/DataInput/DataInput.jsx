@@ -13,7 +13,9 @@ const DataInput = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="first_name mt-4">
               <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">First name</p>
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  First name
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
@@ -21,8 +23,10 @@ const DataInput = () => {
               </label>
             </div>
             <div className="last_name mt-4">
-            <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">Last name</p>
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  Last name
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
@@ -30,8 +34,10 @@ const DataInput = () => {
               </label>
             </div>
             <div className="email mt-4">
-            <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">Email address</p>
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  Email address
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="email"
@@ -39,8 +45,10 @@ const DataInput = () => {
               </label>
             </div>
             <div className="contact_number mt-4">
-            <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">Contact number</p>
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  Contact number
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
@@ -48,8 +56,10 @@ const DataInput = () => {
               </label>
             </div>
             <div className="city mt-4">
-            <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">City</p>
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  City
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
@@ -57,8 +67,10 @@ const DataInput = () => {
               </label>
             </div>
             <div className="state mt-4">
-            <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">State</p>
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  State
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
@@ -66,8 +78,10 @@ const DataInput = () => {
               </label>
             </div>
             <div className="country mt-4">
-            <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">Country</p>
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  Country
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
@@ -75,14 +89,28 @@ const DataInput = () => {
               </label>
             </div>
             <div className="zip_code mt-4">
-            <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">Zip code</p>
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                  Zip code
+                </p>
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
                 />
               </label>
             </div>
+            <div className="date_of_birth mt-4">
+              <label htmlFor="">
+                <p className="font-Nunito text-base text-[#777] font-normal">
+                Date of birth
+                </p>
+                <input
+                  className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
+                  type="date"
+                />
+              </label>
+            </div>
+            
           </div>
         </div>
       </div>
