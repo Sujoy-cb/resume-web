@@ -8,6 +8,7 @@ const Preview = () => {
         <p className="font-Nunito text-base text-textColor">
           Fill sections with your exact details.
         </p>
+        <div className="preview_part bg-[#f5f5f5] h-[430px] mt-4"></div>
       </div>
     </>
   );
