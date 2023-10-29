@@ -9,6 +9,12 @@ const Preview = () => {
           Fill sections with your exact details.
         </p>
         <div className="preview_part bg-[#f5f5f5] h-[430px] mt-4"></div>
+        <div className="grid grid-cols-4 gap-2 mt-4">
+          <div className="p1 bg-[#f33737] h-[100px]"></div>
+          <div className="p1 bg-[#f33737] h-[100px]"></div>
+          <div className="p1 bg-[#f33737] h-[100px]"></div>
+          <div className="p1 bg-[#f33737] h-[100px]"></div>
+        </div>
       </div>
     </>
   );
