@@ -1,5 +1,5 @@
-import {AiOutlineArrowDown} from 'react-icons/ai'
-import {AiOutlineEye} from 'react-icons/ai'
+import { FiDownload } from "react-icons/fi";
+import { AiOutlineEye } from "react-icons/ai";
 const Preview = () => {
   return (
     <>
@@ -20,19 +20,18 @@ const Preview = () => {
           <div className="p1 bg-[#f33737] h-[100px]"></div>
         </div>
         <div className="buttons flex justify-between">
-
-        <button
-              className="flex justify-center items-center bg-[#f5f5f5] w-[170px] h-[44px] mt-[48px] border border-solid border-[#f5f5f5] rounded font-Nunito text-lg text-textColor font-semibold"
-              type="button">
-              <AiOutlineEye/>
-              Preview resume
-            </button>
-        <button
-              className="flex justify-center items-center bg-bcolor w-[170px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold"
-              type="button">
-              <AiOutlineArrowDown/>
-              Download PDF
-            </button>
+          <button
+            className="flex justify-center items-center bg-[#f5f5f5] w-[170px] h-[44px] mt-[48px] border border-solid border-[#f5f5f5] rounded font-Nunito text-lg text-textColor font-semibold"
+            type="button">
+            <AiOutlineEye className="mr-[5px]" />
+            Preview resume
+          </button>
+          <button
+            className="flex justify-center items-center bg-bcolor w-[170px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold"
+            type="button">
+            <FiDownload className="mr-[5px]" />
+            Download PDF
+          </button>
         </div>
       </div>
     </>
