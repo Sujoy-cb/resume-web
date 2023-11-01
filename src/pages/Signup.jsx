@@ -5,7 +5,7 @@ const Signup = () => {
   return (
     <>
       <div className="sign_up min-h-screen flex justify-center items-center">
-        <div className="sign_up_form w-[400px] border border-[#f5f5f5] rounded-lg p-4 shadow-sm">
+        <div className="sign_up_form w-[400px] bg-[#fff] border border-[#fff] rounded-lg p-4 shadow-sm">
           <h3 className='font-josef text-2xl font-bold text-[#0F2C59]'>Create account</h3>
           <div className="form">
             <input
