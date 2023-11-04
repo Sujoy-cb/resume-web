@@ -1,9 +1,9 @@
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import 'froala-editor/css/froala_style.min.css';
-import 'froala-editor/css/froala_editor.pkgd.min.css';
+import "froala-editor/css/froala_style.min.css";
+import "froala-editor/css/froala_editor.pkgd.min.css";
 
-import FroalaEditorComponent from 'react-froala-wysiwyg';
+import FroalaEditorComponent from "react-froala-wysiwyg";
 const Summary = () => {
   return (
     <>
@@ -15,14 +15,8 @@ const Summary = () => {
           Fill it out, and land that dream job! Create and download your
           professional resume in less than 5 minutes.
         </p>
-        <div className="summary_input h-[400px]">
-          {/* <textarea
-            className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full h-full p-2 rounded mt-2 outline-none resize-none"
-            name="#"
-            id="summaryInput"
-            cols="30"
-            rows="10"></textarea> */}
-            <FroalaEditorComponent tag='textarea' className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full h-full p-2 rounded mt-2 outline-none resize-none"/>
+        <div className="summary_input">
+          <FroalaEditorComponent tag="textarea" />
         </div>
         <div className="buttons flex justify-end">
           <button

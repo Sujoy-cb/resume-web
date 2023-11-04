@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap");
 @tailwind base;
 @tailwind components;
@@ -8,15 +8,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background: #f5f5f5;
 }
 
-.preview_overlay{
-  background: rgba(0,0,0,0.6);
+.preview_overlay {
+  background: rgba(0, 0, 0, 0.6);
   opacity: 0;
-  transition: .4s;
+  transition: 0.4s;
 }
-.preview:hover .preview_overlay{
+.preview:hover .preview_overlay {
   opacity: 1;
+}
+
+.fr-wrapper {
+  height: 300px;
+}
+.fr-second-toolbar{
+  display: none;
 }
