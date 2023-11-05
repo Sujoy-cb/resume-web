@@ -1,7 +1,8 @@
 // import DataInput from "../DataInput/DataInput";
+import Experience from "../Experience/Experience";
 import Preview from "../Preview/Preview";
 import Sidebar from "../Sidebar/Sidebar";
-import Summary from "../Summary/Summary";
+// import Summary from "../Summary/Summary";
 
 const HomeBody = () => {
   return (
@@ -9,7 +10,8 @@ const HomeBody = () => {
       <div className="container-full flex gap-4 mx-auto p-2">
         <Sidebar />
         {/* <DataInput /> */}
-        <Summary/>
+        {/* <Summary/> */}
+        <Experience/>
         <Preview />
       </div>
     </>
