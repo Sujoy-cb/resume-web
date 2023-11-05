@@ -21,12 +21,18 @@ body {
   opacity: 1;
 }
 
-.fr-wrapper {
+.summary_input .fr-wrapper {
   height: 300px;
   border-bottom-color: 1px solid #ccc !important;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.fr-second-toolbar{
+.summary_input .fr-second-toolbar{
   display: none;
+}
+.experience .fr-wrapper {
+  height: 150px;
+  border-bottom-color: 1px solid #ccc !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }

@@ -15,8 +15,68 @@ const Experience = () => {
           Fill it out, and land that dream job! Create and download your
           professional resume in less than 5 minutes.
         </p>
-        <div className="summary_input mt-4">
-          <FroalaEditorComponent id="summaryInput" tag="textarea" />
+        <div className="ex_inputs mt-4">
+          <h4 className="font-Nunito text-xl text-textColor font-bold">
+            Work Experiences
+          </h4>
+          <div className="ex_inputItems grid grid-cols-2 gap-4">
+            <div className="company_name mt-4">
+              <label htmlFor="">
+                <input
+                  className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
+                  type="text"
+                  placeholder="Company"
+                />
+              </label>
+            </div>
+            <div className="job_title mt-4">
+              <label htmlFor="">
+                <input
+                  className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
+                  type="text"
+                  placeholder="Job title"
+                />
+              </label>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="date_of_birth mt-4">
+                <label htmlFor="">
+                  <p className="font-Nunito text-base text-[#777] font-normal">
+                    Start date
+                  </p>
+                  <input
+                    className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
+                    type="date"
+                  />
+                </label>
+              </div>
+              <div className="date_of_birth mt-4">
+                <label htmlFor="">
+                  <p className="font-Nunito text-base text-[#777] font-normal">
+                    End date
+                  </p>
+                  <input
+                    className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
+                    type="date"
+                  />
+                </label>
+              </div>
+            </div>
+            <div className="company_address mt-4">
+              <label htmlFor="">
+              <p className="font-Nunito text-base text-[#777] font-normal">
+                    Company address
+                  </p>
+                <input
+                  className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
+                  type="text"
+                />
+              </label>
+            </div>
+          </div>
+        </div>
+        <div className="experience mt-4">
+          <FroalaEditorComponent tag="textarea" />
         </div>
         <div className="buttons flex justify-end">
           <button
@@ -34,7 +94,7 @@ const Experience = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
