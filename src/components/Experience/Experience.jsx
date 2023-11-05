@@ -26,7 +26,7 @@ const Experience = () => {
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
-                  placeholder="Company"
+                  placeholder="Company name"
                 />
               </label>
             </div>
