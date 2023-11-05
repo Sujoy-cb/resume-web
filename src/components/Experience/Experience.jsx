@@ -62,6 +62,12 @@ const Experience = () => {
                   />
                 </label>
               </div>
+              <div className="still_working flex gap-1">
+              <input id="checkbox" type="checkbox" />
+              <label htmlFor="checkbox" className="font-Nunito text-base text-[#777] font-normal" >
+                    Still working
+                  </label>
+              </div>
             </div>
             <div className="company_address mt-4">
               <label htmlFor="">
