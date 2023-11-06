@@ -1,5 +1,6 @@
 // import DataInput from "../DataInput/DataInput";
-import Experience from "../Experience/Experience";
+// import Experience from "../Experience/Experience";
+import Education from "../Education/Education";
 import Preview from "../Preview/Preview";
 import Sidebar from "../Sidebar/Sidebar";
 // import Summary from "../Summary/Summary";
@@ -11,7 +12,8 @@ const HomeBody = () => {
         <Sidebar />
         {/* <DataInput /> */}
         {/* <Summary/> */}
-        <Experience/>
+        {/* <Experience/> */}
+        <Education/>
         <Preview />
       </div>
     </>
