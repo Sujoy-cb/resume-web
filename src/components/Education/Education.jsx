@@ -1,9 +1,6 @@
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { AiOutlinePlusCircle } from "react-icons/ai";
-import FroalaEditorComponent from "react-froala-wysiwyg";
-import "froala-editor/css/froala_style.min.css";
-import "froala-editor/css/froala_editor.pkgd.min.css";
 
 const Education = () => {
   return (
@@ -26,7 +23,7 @@ const Education = () => {
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
-                  placeholder="Company name"
+                  placeholder="Institute name"
                 />
               </label>
             </div>
@@ -35,7 +32,16 @@ const Education = () => {
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
-                  placeholder="Job title"
+                  placeholder="Group"
+                />
+              </label>
+            </div>
+            <div className="company_address mt-10">
+              <label htmlFor="">
+                <input
+                  className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
+                  type="text"
+                  placeholder="Add your CGPA"
                 />
               </label>
             </div>
@@ -65,34 +71,18 @@ const Education = () => {
               <div className="still_working flex gap-1">
               <input id="checkbox" type="checkbox" />
               <label htmlFor="checkbox" className="font-Nunito text-base text-[#777] font-normal" >
-                    Still working
+                    Still studing
                   </label>
               </div>
             </div>
-            <div className="company_address mt-4">
-              <label htmlFor="">
-                <p className="font-Nunito text-base text-[#777] font-normal">
-                  Company address
-                </p>
-                <input
-                  className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
-                  type="text"
-                />
-              </label>
-            </div>
+            
           </div>
-        </div>
-        <div className="experience mt-4">
-          <p className="font-Nunito text-base text-[#777] font-normal mb-2">
-            Your responsibilities
-          </p>
-          <FroalaEditorComponent tag="textarea" />
         </div>
         <div className="add_more flex mt-4 cursor-default">
           <AiOutlinePlusCircle className="text-xl text-bcolor mt-[2px]" />
           <span>
             <p className="font-Nunito text-base text-[#777] font-normal ml-1">
-              Your responsibilities
+              Add more options
             </p>
           </span>
         </div>
