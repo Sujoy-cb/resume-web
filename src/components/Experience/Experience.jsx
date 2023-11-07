@@ -92,7 +92,7 @@ const Experience = () => {
           <AiOutlinePlusCircle className="text-xl text-bcolor mt-[2px]" />
           <span>
             <p className="font-Nunito text-base text-[#777] font-normal ml-1">
-              Your responsibilities
+              Add more options
             </p>
           </span>
         </div>

@@ -15,7 +15,7 @@ const Education = () => {
         </p>
         <div className="ex_inputs mt-4">
           <h4 className="font-Nunito text-xl text-textColor font-bold">
-            Work Experiences
+            Your education
           </h4>
           <div className="ex_inputItems grid grid-cols-2 gap-4">
             <div className="company_name mt-4">
@@ -32,7 +32,7 @@ const Education = () => {
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
-                  placeholder="Group"
+                  placeholder="Field of study"
                 />
               </label>
             </div>
@@ -68,14 +68,18 @@ const Education = () => {
                   />
                 </label>
               </div>
-              <div className="still_working flex gap-1">
-              <input id="checkbox" type="checkbox" />
-              <label htmlFor="checkbox" className="font-Nunito text-base text-[#777] font-normal" >
-                    Still studing
-                  </label>
+              <div className="currently_study w-[200px] flex gap-1">
+                <input
+                  id="checkbox"
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="checkbox"
+                  className="font-Nunito text-base text-[#777] font-normal">
+                  Currently study here
+                </label>
               </div>
             </div>
-            
           </div>
         </div>
         <div className="add_more flex mt-4 cursor-default">
@@ -102,7 +106,7 @@ const Education = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;
