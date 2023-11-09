@@ -36,50 +36,6 @@ const Languages = () => {
                 />
               </label>
             </div>
-            <div className="company_address mt-10">
-              <label htmlFor="">
-                <input
-                  className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
-                  type="text"
-                  placeholder="Add your CGPA"
-                />
-              </label>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="date_of_birth mt-4">
-                <label htmlFor="">
-                  <p className="font-Nunito text-base text-[#777] font-normal">
-                    Start date
-                  </p>
-                  <input
-                    className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
-                    type="date"
-                  />
-                </label>
-              </div>
-              <div className="date_of_birth mt-4">
-                <label htmlFor="">
-                  <p className="font-Nunito text-base text-[#777] font-normal">
-                    End date
-                  </p>
-                  <input
-                    className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
-                    type="date"
-                  />
-                </label>
-              </div>
-              <div className="currently_study w-[200px] flex gap-1">
-                <input
-                  id="checkbox"
-                  type="checkbox"
-                />
-                <label
-                  htmlFor="checkbox"
-                  className="font-Nunito text-base text-[#777] font-normal">
-                  Currently study here
-                </label>
-              </div>
-            </div>
           </div>
         </div>
         <div className="add_more flex mt-4 cursor-default">
@@ -106,7 +62,7 @@ const Languages = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Languages
+export default Languages;
