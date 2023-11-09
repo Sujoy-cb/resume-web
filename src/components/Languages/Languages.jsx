@@ -27,14 +27,22 @@ const Languages = () => {
                 />
               </label>
             </div>
-            <div className="job_title mt-4">
-              <label htmlFor="">
+            <div className="expertise mt-4">
+            
+                <select name="" id="expert_level">
+                    <option value="">Select level</option>
+                    <option value="">Fluent</option>
+                    <option value="">Native</option>
+                    <option value="">Communicative</option>
+                </select>
+           
+              {/* <label htmlFor="">
                 <input
                   className="border border-solid border-[#f5f5f5] bg-[#f5f5f5] w-full p-2 rounded mt-2 outline-none"
                   type="text"
                   placeholder="Field of study"
                 />
-              </label>
+              </label> */}
             </div>
           </div>
         </div>
