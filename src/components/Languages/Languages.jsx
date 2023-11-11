@@ -31,7 +31,7 @@ const Languages = () => {
               <select
                 name=""
                 id="expert_level"
-                className="bg-[#f5f5f5] border border-solid border-[#f5f5f5] rounded w-full font-Nunito text-lg text-textColor font-semibold p-2 mt-2 outline-0">
+                className="bg-[#f5f5f5] border border-solid border-[#f5f5f5] rounded w-full font-Nunito text-base text-textColor font-semibold p-2 mt-2 outline-0">
                 <option value="">Select level</option>
                 <option value="">Fluent</option>
                 <option value="">Native</option>
