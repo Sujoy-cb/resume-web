@@ -31,7 +31,7 @@ const Languages = () => {
               <select
                 name=""
                 id="expert_level"
-                className="bg-[#f5f5f5] border border-solid border-[#f5f5f5] rounded w-full p-2 mt-2 outline-0">
+                className="bg-[#f5f5f5] border border-solid border-[#f5f5f5] rounded w-full font-Nunito text-lg text-textColor font-semibold p-2 mt-2 outline-0">
                 <option value="">Select level</option>
                 <option value="">Fluent</option>
                 <option value="">Native</option>
@@ -48,7 +48,7 @@ const Languages = () => {
             </p>
           </span>
         </div>
-        <div className="buttons flex justify-end">
+        <div className="buttons flex justify-end mt-40">
           <button
             className="flex justify-center items-center bg-[#f5f5f5] w-[185px] h-[44px] mt-[48px] border border-solid border-[#f5f5f5] rounded font-Nunito text-lg text-textColor font-semibold mr-4 hover:bg-bcolor hover:text-[#fff] hover:border-[#502acd] transition duration-500 ease-in-out"
             type="submit">
