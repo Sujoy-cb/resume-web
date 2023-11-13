@@ -1,6 +1,7 @@
 // import DataInput from "../DataInput/DataInput";
 // import Experience from "../Experience/Experience";
 // import Education from "../Education/Education";
+import Achievements from "../Achievements/Achievements";
 import Languages from "../Languages/Languages";
 import Preview from "../Preview/Preview";
 import Sidebar from "../Sidebar/Sidebar";
@@ -16,6 +17,7 @@ const HomeBody = () => {
         {/* <Experience/> */}
         {/* <Education/> */}
         <Languages/>
+        <Achievements/>
         <Preview />
       </div>
     </>
