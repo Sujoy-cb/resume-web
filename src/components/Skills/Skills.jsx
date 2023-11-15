@@ -1,4 +1,4 @@
-
+import { FaTimes } from "react-icons/fa";
 const Skills = () => {
   return (
     <>
@@ -19,8 +19,37 @@ const Skills = () => {
             type="search"
             placeholder="Search and add skills"
           />
-          <div className="skills">
-            <span>React</span>
+          <div className="addedSkills flex justify-between mt-4">
+            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+              React{" "}
+              <span>
+                <FaTimes />
+              </span>
+            </span>
+            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+              Node{" "}
+              <span>
+                <FaTimes />
+              </span>
+            </span>
+            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+              MongoDB{" "}
+              <span>
+                <FaTimes />
+              </span>
+            </span>
+            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+              Express JS{" "}
+              <span>
+                <FaTimes />
+              </span>
+            </span>
+            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+              React{" "}
+              <span>
+                <FaTimes />
+              </span>
+            </span>
           </div>
         </div>
       </div>
