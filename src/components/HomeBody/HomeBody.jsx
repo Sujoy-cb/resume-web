@@ -3,9 +3,10 @@
 // import Education from "../Education/Education";
 // import Achievements from "../Achievements/Achievements";
 // import Languages from "../Languages/Languages";
-import Courses from "../Courses/Courses";
+// import Courses from "../Courses/Courses";
 import Preview from "../Preview/Preview";
 import Sidebar from "../Sidebar/Sidebar";
+import Skills from "../Skills/Skills";
 // import Summary from "../Summary/Summary";
 
 const HomeBody = () => {
@@ -19,7 +20,8 @@ const HomeBody = () => {
         {/* <Education/> */}
         {/* <Languages/> */}
         {/* <Achievements/> */}
-        <Courses/>
+        {/* <Courses/> */}
+        <Skills />
         <Preview />
       </div>
     </>
