@@ -1,4 +1,6 @@
 import { FaTimes } from "react-icons/fa";
+import { AiOutlineArrowLeft } from "react-icons/ai";
+import { FaCheck } from "react-icons/fa6";
 const Skills = () => {
   return (
     <>
@@ -56,6 +58,20 @@ const Skills = () => {
                 <FaTimes />
               </span>
             </span>
+          </div>
+          <div className="buttons flex justify-end">
+            <button
+              className="flex justify-center items-center bg-[#f5f5f5] w-[185px] h-[44px] mt-[48px] border border-solid border-[#f5f5f5] rounded font-Nunito text-lg text-textColor font-semibold mr-4 hover:bg-bcolor hover:text-[#fff] hover:border-[#502acd] transition duration-500 ease-in-out"
+              type="submit">
+              <AiOutlineArrowLeft />
+              Prev
+            </button>
+            <button
+              className="flex justify-center items-center bg-bcolor w-[185px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold"
+              type="submit">
+              Save
+              <FaCheck />
+            </button>
           </div>
         </div>
       </div>
