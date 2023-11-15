@@ -19,33 +19,39 @@ const Skills = () => {
             type="search"
             placeholder="Search and add skills"
           />
-          <div className="addedSkills flex justify-between mt-4">
-            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+          <div className="addedSkills flex justify-between flex-wrap mt-4">
+            <span className="w-[120px] flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium mt-2">
               React{" "}
               <span>
                 <FaTimes />
               </span>
             </span>
-            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+            <span className="w-[120px] flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium mt-2">
               Node{" "}
               <span>
                 <FaTimes />
               </span>
             </span>
-            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+            <span className="w-[120px] flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium mt-2">
               MongoDB{" "}
               <span>
                 <FaTimes />
               </span>
             </span>
-            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
+            <span className="w-[120px] flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium mt-2">
               Express JS{" "}
               <span>
                 <FaTimes />
               </span>
             </span>
-            <span className="w-full flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium">
-              React{" "}
+            <span className="w-[120px] flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium mt-2">
+              Next Js{" "}
+              <span>
+                <FaTimes />
+              </span>
+            </span>
+            <span className="w-[120px] flex justify-between items-center bg-bcolor p-2 rounded-full font-Nunito text-base text-[#fff] font-medium mt-2">
+              Prisma{" "}
               <span>
                 <FaTimes />
               </span>
