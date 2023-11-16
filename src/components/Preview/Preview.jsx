@@ -1,6 +1,10 @@
 import { FiDownload } from "react-icons/fi";
 import { AiOutlineEye } from "react-icons/ai";
 import PreviewImage from '../../assets/cv6.jpeg'
+import Cv1 from '../../assets/cv1.jpeg'
+import Cv2 from '../../assets/cv2.jpeg'
+import Cv3 from '../../assets/cv3.jpeg'
+import Cv4 from '../../assets/cv4.png'
 const Preview = () => {
   return (
     <>
@@ -22,10 +26,18 @@ const Preview = () => {
           </div>
         </div>
         <div className="grid grid-cols-4 gap-2 mt-4">
-          <div className="p1 bg-[#f33737] h-[100px]"></div>
-          <div className="p1 bg-[#f33737] h-[100px]"></div>
-          <div className="p1 bg-[#f33737] h-[100px]"></div>
-          <div className="p1 bg-[#f33737] h-[100px]"></div>
+          <div className="p1 bg-[#f33737] h-[100px]">
+            <img className="w-full h-full" src={Cv1} alt="" />
+          </div>
+          <div className="p1 bg-[#f33737] h-[100px]">
+            <img className="w-full h-full" src={Cv2} alt="" />
+          </div>
+          <div className="p1 bg-[#f33737] h-[100px]">
+            <img className="w-full h-full" src={Cv3} alt="" />
+          </div>
+          <div className="p1 bg-[#f33737] h-[100px]">
+            <img className="w-full h-full" src={Cv4} alt="" />
+          </div>
         </div>
         <div className="buttons flex justify-center">
           <button
