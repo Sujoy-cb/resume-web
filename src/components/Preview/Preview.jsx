@@ -1,5 +1,6 @@
 import { FiDownload } from "react-icons/fi";
 import { AiOutlineEye } from "react-icons/ai";
+import PreviewImage from '../../assets/cv6.jpeg'
 const Preview = () => {
   return (
     <>
@@ -16,7 +17,9 @@ const Preview = () => {
             <AiOutlineEye className="text-xl hover" />
             </div>
           </div>
-          <div className="preview_part bg-[#f5f5f5] w-[270px] h-[330px] mx-auto mt-4 p-2">fgdfdfgdfgdfgdfgfg</div>
+          <div className="preview_part bg-[#f5f5f5] w-[270px] h-[330px] mx-auto mt-4 p-2">
+            <img className="w-full h-full" src={PreviewImage} alt="" />
+          </div>
         </div>
         <div className="grid grid-cols-4 gap-2 mt-4">
           <div className="p1 bg-[#f33737] h-[100px]"></div>
