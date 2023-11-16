@@ -21,27 +21,27 @@ const Preview = () => {
             <AiOutlineEye className="text-xl hover" />
             </div>
           </div>
-          <div className="preview_part bg-[#f5f5f5] w-[270px] h-[330px] mx-auto mt-4 p-2">
+          <div className="preview_part bg-[#f5f5f5] w-[270px] h-[330px] mx-auto mt-4">
             <img className="w-full h-full" src={PreviewImage} alt="" />
           </div>
         </div>
         <div className="grid grid-cols-4 gap-2 mt-4">
-          <div className="p1 bg-[#f33737] h-[100px]">
+          <div className="p1 h-[100px] border border-solid border-[#f5f5f5] hover:border-solid hover:border-bcolor">
             <img className="w-full h-full" src={Cv1} alt="" />
           </div>
-          <div className="p1 bg-[#f33737] h-[100px]">
+          <div className="p1 h-[100px] border border-solid border-[#f5f5f5] hover:border-solid hover:border-bcolor">
             <img className="w-full h-full" src={Cv2} alt="" />
           </div>
-          <div className="p1 bg-[#f33737] h-[100px]">
+          <div className="p1 h-[100px] border border-solid border-[#f5f5f5] hover:border-solid hover:border-bcolor">
             <img className="w-full h-full" src={Cv3} alt="" />
           </div>
-          <div className="p1 bg-[#f33737] h-[100px]">
+          <div className="p1 h-[100px] border border-solid border-[#f5f5f5] hover:border-solid hover:border-bcolor">
             <img className="w-full h-full" src={Cv4} alt="" />
           </div>
         </div>
         <div className="buttons flex justify-center">
           <button
-            className="flex justify-center items-center bg-bcolor w-[170px] h-[44px] mt-[48px] border border-solid border-[#502acd] rounded font-Nunito text-lg text-[#fff] font-semibold"
+            className="flex justify-center items-center bg-bcolor w-[170px] h-[44px] mt-[48px] border border-solid border-bcolor rounded font-Nunito text-lg text-[#fff] font-semibold"
             type="button">
             <FiDownload className="mr-[5px]" />
             Download PDF
