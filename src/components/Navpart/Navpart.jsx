@@ -5,12 +5,11 @@ import { SlBadge } from "react-icons/sl";
 import { FaLanguage } from "react-icons/fa";
 import { PiCaretDownBold } from "react-icons/pi";
 const Navpart = () => {
+  let [changelanguage, setChangelanguage] = useState(false);
 
-  let [changelanguage, setChangelanguage] = useState(false)
-
-  let handleLanguage= ()=>{
-    setChangelanguage(!changelanguage)
-  }
+  let handleLanguage = () => {
+    setChangelanguage(!changelanguage);
+  };
   return (
     <>
       <div className="navpart bg-bcolor p-5">
@@ -38,12 +37,28 @@ const Navpart = () => {
                   </span>
                   Upgrade
                 </li>
-                <li onClick={handleLanguage} className="font-Nunito text-fcolor text-base font-medium flex items-center gap-1 cursor-default relative">
+                <li
+                  onClick={handleLanguage}
+                  className="font-Nunito text-fcolor text-base font-medium flex items-center gap-1 cursor-default relative">
                   <span>
                     <FaLanguage />
                   </span>
                   English
-                  <div className= {changelanguage?"lan_option w-60 h-52 bg-[#fff] absolute top-[43px] right-[-63px] border border-[#000] z-10 block": "lan_option w-60 h-52 bg-[#fff] absolute top-[43px] right-[-63px] border border-[#000] z-10 hidden"}></div>
+                  <div
+                    className={
+                      changelanguage
+                        ? "lan_option bg-[#fff] absolute top-[43px] right-[-40px] border border-textColor z-10 block"
+                        : "lan_option bg-[#fff] absolute top-[43px] right-[-40px] border border-textColor z-10 hidden"
+                    }>
+                    <div className="lang flex justify-between divide-x">
+                      <h5 className="font-Nunito text-textColor text-base font-semibold p-4">
+                        English
+                      </h5>
+                      <h5 className="font-Nunito text-textColor text-base font-semibold p-4">
+                        Bangla
+                      </h5>
+                    </div>
+                  </div>
                 </li>
                 <li className="font-Nunito text-fcolor text-base font-medium flex justify-between items-center">
                   <span className="w-10 h-10 border-[2px] border-red-700 p-2 rounded-full mr-2">
