@@ -1,9 +1,16 @@
+import { useState } from "react";
 import logo from "../../assets/logo.png";
 import { AiOutlineDashboard } from "react-icons/ai";
 import { SlBadge } from "react-icons/sl";
 import { FaLanguage } from "react-icons/fa";
 import { PiCaretDownBold } from "react-icons/pi";
 const Navpart = () => {
+
+  let [changelanguage, setChangelanguage] = useState(false)
+
+  let handleLanguage= ()=>{
+    setChangelanguage(!changelanguage)
+  }
   return (
     <>
       <div className="navpart bg-bcolor p-5">
@@ -31,16 +38,21 @@ const Navpart = () => {
                   </span>
                   Upgrade
                 </li>
-                <li className="font-Nunito text-fcolor text-base font-medium flex items-center gap-1">
+                <li onClick={handleLanguage} className="font-Nunito text-fcolor text-base font-medium flex items-center gap-1 cursor-default relative">
                   <span>
                     <FaLanguage />
                   </span>
                   English
+                  <div className= {changelanguage?"lan_option w-60 h-52 bg-[#fff] absolute top-[43px] right-[-63px] border border-[#000] z-10 block": "lan_option w-60 h-52 bg-[#fff] absolute top-[43px] right-[-63px] border border-[#000] z-10 hidden"}></div>
                 </li>
                 <li className="font-Nunito text-fcolor text-base font-medium flex justify-between items-center">
-                <span className="w-10 h-10 border-[2px] border-red-700 p-2 rounded-full mr-2">SC</span>
+                  <span className="w-10 h-10 border-[2px] border-red-700 p-2 rounded-full mr-2">
+                    SC
+                  </span>
                   Sujoy Chakraborty
-                  <span><PiCaretDownBold/></span>
+                  <span>
+                    <PiCaretDownBold />
+                  </span>
                 </li>
               </ul>
             </div>

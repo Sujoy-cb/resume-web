@@ -1,4 +1,4 @@
-// import DataInput from "../DataInput/DataInput";
+import DataInput from "../DataInput/DataInput";
 // import Experience from "../Experience/Experience";
 // import Education from "../Education/Education";
 // import Achievements from "../Achievements/Achievements";
@@ -6,7 +6,7 @@
 // import Courses from "../Courses/Courses";
 import Preview from "../Preview/Preview";
 import Sidebar from "../Sidebar/Sidebar";
-import Skills from "../Skills/Skills";
+// import Skills from "../Skills/Skills";
 // import Summary from "../Summary/Summary";
 
 
@@ -15,7 +15,7 @@ const HomeBody = () => {
     <>
       <div className="container-full flex gap-4 mx-auto p-2">
         <Sidebar />
-        {/* <DataInput /> */}
+        <DataInput />
         {/* <Summary/> */}
         {/* <Experience/> */}
         {/* <Education/> */}
@@ -23,7 +23,7 @@ const HomeBody = () => {
         {/* <Achievements/> */}
         {/* <Courses/> */}
         
-        <Skills />
+        {/* <Skills /> */}
         <Preview />
       </div>
     </>

@@ -8,9 +8,7 @@ import { SlBadge } from "react-icons/sl";
 import { AiOutlineLaptop } from "react-icons/ai";
 
 
-let handleUser= ()=>{
-  console.log("user")
-}
+
 
 const Sidebar = () => {
   return (
@@ -23,7 +21,7 @@ const Sidebar = () => {
             Choose the option and write your details.
           </p>
           <div className="choose_part grid grid-rows-4 grid-flow-col gap-3 mt-4">
-            <span onClick={handleUser} className="p-6 bg-[#f5f5f5] rounded-md cursor-pointer">
+            <span className="p-6 bg-[#f5f5f5] rounded-md cursor-pointer">
               <FaUserTie className="text-[40px] text-bcolor mx-auto"/>
               <p className="font-Nunito text-base text-textColor font-bold text-center">User info</p>
             </span>
