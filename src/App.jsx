@@ -1,6 +1,7 @@
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Upgrade from "./pages/Upgrade";
+import Dashboard from "./pages/Dashboard";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Signup />
       <Login />
       <Upgrade/>
+      <Dashboard/>
     </>
   );
 }
