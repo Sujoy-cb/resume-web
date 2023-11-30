@@ -1,5 +1,5 @@
 import Footer from "../components/Footer/Footer";
-import HomeBody from "../components/HomeBody/HomeBody";
+import HomeBody from "../components/HomeBody/HomeBody"
 import Navpart from "../components/Navpart/Navpart";
 
 const Home = () => {

@@ -9,7 +9,6 @@ import Sidebar from "../Sidebar/Sidebar";
 // import Skills from "../Skills/Skills";
 // import Summary from "../Summary/Summary";
 
-
 const HomeBody = () => {
   return (
     <>
@@ -22,7 +21,6 @@ const HomeBody = () => {
         {/* <Languages/> */}
         {/* <Achievements/> */}
         {/* <Courses/> */}
-        
         {/* <Skills /> */}
         <Preview />
       </div>
